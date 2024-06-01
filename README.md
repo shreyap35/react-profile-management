@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Profile Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a POC project to demonstrate profile management use case with React. The application currently has only frontend code and needs integration with backend to make it fully functional. Mock data is used to simulate the existing users. 
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. React
+2. Typescript
+3. Vite
+4. Material UI
+5. Tailwind CSS
+6. React leaflet (as it was free alternative to Google Maps API)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Admins can add or edit existing user profiles
+2. Page to view all profiles cards with summary
+3. Page to view each profile
+4. Locations page to view locations of all users
+5. View location of individual user
 
-- Configure the top-level `parserOptions` property like this:
+## Running the Application
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone this repository using `https://github.com/shreyap35/react-profile-management.git`
+2. Install all the dependencies using `npm install`
+3. `npm run dev`
+
+## Screenshots
+
+![Demo Video](screenshots/Demo.mp4)
+
+![Profile Page](screenshots/Profile-Page.png)
+
+![Add Profile](screenshots/Add-Profile.png)
+
+![Edit Profile](screenshots/Edit-Profile.png)
+
+![Profile Cards](screenshots/Profile-Cards.png)
+
+![Profile Details](screenshots/Profile-Details.png)
+
+![Locations](screenshots/Locations-Page.png)
+
+![User Location](screenshots/User-Location.png)
+
+
