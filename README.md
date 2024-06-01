@@ -28,8 +28,6 @@ This is a POC project to demonstrate profile management use case with React. The
 
 ## Screenshots
 
-![Demo Video](screenshots/Demo.mp4)
-
 ![Profile Page](screenshots/Profile-Page.png)
 
 ![Add Profile](screenshots/Add-Profile.png)
